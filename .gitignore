@@ -1,0 +1,58 @@
+# ============================================================
+# .gitignore — Prevents sensitive and temporary files from
+# being accidentally pushed to GitHub
+# ============================================================
+
+# ── Environment / secrets ───────────────────────────────────
+.env
+*.env
+
+# ── Database files ──────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Python cache ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ── Virtual environments ────────────────────────────────────
+venv/
+env/
+.venv/
+.env/
+
+# ── Jupyter Notebook checkpoints ────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Pytest cache ────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Distribution / packaging ────────────────────────────────
+dist/
+build/
+*.egg-info/
+
+# ── OS-generated files ──────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE files ───────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ── Raw API data (large files; re-collect when needed) ──────
+# Comment out if you want to keep raw data in the repo
+data/raw/
+
+# ── Logs ────────────────────────────────────────────────────
+*.log
+logs/
