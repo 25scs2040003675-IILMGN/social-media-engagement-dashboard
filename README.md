@@ -423,9 +423,9 @@ pytest tests/ -v
 
 ## 👤 Author
 
-**[Your Name]**
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
+**[Kumar Omkar]**
+- GitHub:https://github.com/25scs2040003675-IILMGN
+- LinkedIn:https://www.linkedin.com/in/kumar-omkar-615b59382?
 
 ---
 
